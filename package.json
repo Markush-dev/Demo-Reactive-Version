@@ -1,6 +1,7 @@
 {
   "name": "react-ar-ai",
   "version": "0.1.0",
+  "homepage": "http://Markush-dev.github.io/Demo-Reactive-Version",
   "author": {
     "email": "sorenharfagri@gmail.com",
     "name": "harfagri"
@@ -63,6 +64,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -93,6 +96,7 @@
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "eslint": "^7.28.0",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "gh-pages": "^4.0.0"
   }
 }

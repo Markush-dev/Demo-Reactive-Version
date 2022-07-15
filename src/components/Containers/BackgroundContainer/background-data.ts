@@ -1,19 +1,19 @@
 
 export const backgroundData = [
   {
-    url: "./Backgrounds/envMap.jpg",
+    url: "./Demo-Reactive-Version/Backgrounds/envMap.jpg",
     width: 50,
     height: 50,
     alt: "Ground"
   },
   {
-    url: "./Backgrounds/green.jpeg",
+    url: "./Demo-Reactive-Version/Backgrounds/green.jpeg",
     width: 50,
     height: 50,
     alt: "Green"
   },
   {
-    url: "./Backgrounds/red.jpeg",
+    url: "./Demo-Reactive-Version/Backgrounds/red.jpeg",
     width: 50,
     height: 50,
     alt: "red"
